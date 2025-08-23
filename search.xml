@@ -1,6 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Linux 常用命令速查手册</title>
+    <url>/2025/07/22/Linux/Linux-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E6%89%8B%E5%86%8C/</url>
+    <content><![CDATA[
+参考资料：Linux
+
+
+常用命令速查表
+
+
+命令示例
+说明
+命令示例
+说明
+
+
+
+tab
+快速补齐
+cp 源文件 目标
+复制文件
+
+
+help
+查看任何命令的帮助
+mv 文件 目录
+移动文件
+
+
+ls -alh
+列出所有文件（含隐藏）
+find 目录 -name 文件名
+查找文件
+
+
+touch 文件名
+新建一个文件
+grep &quot;关键字&quot; 文件名
+在文件中查找内容
+
+
+vi 文件名
+编辑文件
+mkdir 目录名
+创建目录
+
+
+:wq / :x
+保存并退出 vi
+rmdir 目录名
+删除空目录
+
+
+:q!
+不保存并退出 vi
+rm -rf 文件/目录
+强制删除
+
+
+clear
+清屏
+ifconfig
+查看服务器 IP
+
+
+open ./
+打开当前目录（Mac 常用）
+ping 域名/IP
+检查网络是否联通
+
+
+whoami
+查看当前用户
+ctrl+c
+结束前台程序
+
+
+useradd 用户名
+新建用户
+su 用户名
+切换用户
+
+
+passwd 用户名
+设置密码
+pwd
+显示当前路径
+
+
+cd 目录 &#x2F; cd ..
+切换目录 &#x2F; 上级目录
+cat 文件
+查看文件内容
+
+
+cd / &#x2F; cd ~
+根目录 &#x2F; 用户主目录
+head -n 10 文件
+查看前 10 行
+
+
+ps -ef
+查看所有进程
+tail -f 文件
+动态查看日志
+
+
+kill -9 PID
+强制杀进程
+&#96;ps -ef
+grep 关键字&#96;
+
+
+netstat -an
+查看网络连接
+more 文件
+分页查看（回车下一行，空格下一页）
+
+
+chmod -R 755 文件/目录
+修改权限
+less 文件
+翻页查看（空格翻页，q 退出）
+
+
+tar -czvf 压缩包.tar.gz 文件名
+压缩文件&#x2F;目录
+tar -xzvf 压缩包.tar.gz
+解压
+
+
+zip -r 压缩包.zip 文件/目录
+zip 压缩
+unzip 压缩包.zip
+zip 解压
+
+
+reboot
+重启系统
+halt
+关机
+
+
+logout
+注销用户
+
+
+
+
+
+常见端口号
+MySQL: 3306  
+Tomcat: 8080  
+SSH: 22
+
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>命令</tag>
+        <tag>Shell</tag>
+        <tag>速查</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JMeter 接口测试笔记</title>
     <url>/2025/06/20/Jmeter/Jmeter/</url>
     <content><![CDATA[JMeter 接口测试笔记页面的响应时间应该小于 0.3s (300ms)
@@ -227,171 +392,6 @@ Token &#x2F; 鉴权校验
         <tag>接口测试</tag>
         <tag>性能测试</tag>
         <tag>自动化</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux 常用命令速查手册</title>
-    <url>/2025/07/22/Linux/Linux-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E6%89%8B%E5%86%8C/</url>
-    <content><![CDATA[
-参考资料：Linux
-
-
-常用命令速查表
-
-
-命令示例
-说明
-命令示例
-说明
-
-
-
-tab
-快速补齐
-cp 源文件 目标
-复制文件
-
-
-help
-查看任何命令的帮助
-mv 文件 目录
-移动文件
-
-
-ls -alh
-列出所有文件（含隐藏）
-find 目录 -name 文件名
-查找文件
-
-
-touch 文件名
-新建一个文件
-grep &quot;关键字&quot; 文件名
-在文件中查找内容
-
-
-vi 文件名
-编辑文件
-mkdir 目录名
-创建目录
-
-
-:wq / :x
-保存并退出 vi
-rmdir 目录名
-删除空目录
-
-
-:q!
-不保存并退出 vi
-rm -rf 文件/目录
-强制删除
-
-
-clear
-清屏
-ifconfig
-查看服务器 IP
-
-
-open ./
-打开当前目录（Mac 常用）
-ping 域名/IP
-检查网络是否联通
-
-
-whoami
-查看当前用户
-ctrl+c
-结束前台程序
-
-
-useradd 用户名
-新建用户
-su 用户名
-切换用户
-
-
-passwd 用户名
-设置密码
-pwd
-显示当前路径
-
-
-cd 目录 &#x2F; cd ..
-切换目录 &#x2F; 上级目录
-cat 文件
-查看文件内容
-
-
-cd / &#x2F; cd ~
-根目录 &#x2F; 用户主目录
-head -n 10 文件
-查看前 10 行
-
-
-ps -ef
-查看所有进程
-tail -f 文件
-动态查看日志
-
-
-kill -9 PID
-强制杀进程
-&#96;ps -ef
-grep 关键字&#96;
-
-
-netstat -an
-查看网络连接
-more 文件
-分页查看（回车下一行，空格下一页）
-
-
-chmod -R 755 文件/目录
-修改权限
-less 文件
-翻页查看（空格翻页，q 退出）
-
-
-tar -czvf 压缩包.tar.gz 文件名
-压缩文件&#x2F;目录
-tar -xzvf 压缩包.tar.gz
-解压
-
-
-zip -r 压缩包.zip 文件/目录
-zip 压缩
-unzip 压缩包.zip
-zip 解压
-
-
-reboot
-重启系统
-halt
-关机
-
-
-logout
-注销用户
-
-
-
-
-
-常见端口号
-MySQL: 3306  
-Tomcat: 8080  
-SSH: 22
-
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>命令</tag>
-        <tag>Shell</tag>
-        <tag>速查</tag>
       </tags>
   </entry>
 </search>
